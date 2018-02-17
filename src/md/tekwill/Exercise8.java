@@ -8,6 +8,11 @@ public class Exercise8 {
     OUT: 11
     */
     public static void main(String[] args) {
-        // write your code here
+        String array[] = {"One", "Two", "Three"};
+
+        for (int counter = 0; counter < array.length; counter++) ;
+
+
+
     }
 }

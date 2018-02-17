@@ -8,6 +8,16 @@ public class Exercise2 {
     OUT: 7
     */
     public static void main(String[] args) {
-        // write your code here
+
+
+            System.out.println("Min value of 14, 7 is: "+Math.min(14, 7));
+
+
+
     }
 }
+
+
+
+
+

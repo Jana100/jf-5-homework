@@ -9,9 +9,17 @@ public class Exercise1 {
     20C - 68F
     30C - 86F
     ...
-    300 - 572
+    300 - 572n
     */
     public static void main(String[] args) {
-        // write your code here
+        int fahr;
+        int celsius;
+        for (celsius = 0; celsius < 300; celsius++) ;
+        {
+            fahr = (celsius * 9 / 5) + 32;
+            celsius = celsius + 10;
+        }
     }
-}
+
+    }
+

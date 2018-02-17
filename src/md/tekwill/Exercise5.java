@@ -8,6 +8,13 @@ public class Exercise5 {
     OUT: 4
     */
     public static void main(String[] args) {
-        // write your code here
+            String s1 =  ("Java");
+
+            System.out.print("String Length :" );
+            System.out.println(s1.length());
+
+
+        }
+
     }
-}
+

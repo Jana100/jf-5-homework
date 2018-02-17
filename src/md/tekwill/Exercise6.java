@@ -7,7 +7,22 @@ public class Exercise6 {
     {"Java", "Developer", "Software"}
     OUT: Developer
     */
-    public static void main(String[] args) {
-        // write your code here
-    }
-}
+            public static void main(String[] args) {
+                String[] animalNames = {"Java", "Developer", "Software"};
+                String a= getLongestString(animalNames);
+                System.out.println(a);
+            }
+            private static String getLongestString(String []animalNames) {
+
+                int s;
+                for (s = 0; s <= animalNames.length; s++) {
+                    if (animalNames[s].length() > animalNames[s + 1].length()) {
+                        return (animalNames[s]);
+                    }
+                }
+                return null;
+            }
+
+        }
+
+
